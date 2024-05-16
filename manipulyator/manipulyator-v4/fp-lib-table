@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name manipulyator-v3)(type KiCad)(uri /media/user/data/YandexDisk/kicad_projects/manipulyator/manipulyator-v3)(options "")(descr ""))
+  (lib (name manipulyator-v4)(type KiCad)(uri /media/user/data/YandexDisk/kicad_projects/manipulyator/manipulyator-v4)(options "")(descr ""))
+)

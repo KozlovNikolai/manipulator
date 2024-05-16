@@ -13,19 +13,10 @@
 <details>
   <summary>Содержание</summary>
   <ol>
-    <li>
-      <a href="#о-проекте">О проекте</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#о-проекте">О проекте</a></li>
+    <li><a href="#начало">Начало</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -46,7 +37,7 @@
 Проект был задуман как ответ на запрос от телеграфистов скоростников на изготовление автоматического ключа, отвещающего следующим требованиям:</p>
 
 * <p align="left">скорость работы ключа не менее 400 СРМ</p>
-* <p align="left">поддержка всех режимов работы манипулятора</p>
+* <p align="left">поддержка всех режимов работы манипулятора: Iambic A, Iambic AT, Iambic B, Classic</p>
 * <p align="left">два выхода управления: реле и оптопара</p>
 * <p align="left">звуковая индикация</p>
 * <p align="left">индикация заряда батареи</p>
@@ -61,50 +52,15 @@
 
 
 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
-## Getting Started
+## Начало
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Для установки программы требуются:
 
-### Prerequisites
+* Arduino IDE
+* Микроконтроллер AtMega32u4
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+После прошивки требуется вставить контроллер в манипулятор, изготовленный в соответствии с <a href="manipulyator">проектом</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,6 +142,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[arduino-img]: https://cdn.arduino.cc/header-footer/prod/assets/headerLogo-arduino.svg
+[arduino-link]: https://www.arduino.cc/
 [front-img]: фото/front.jpg
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors

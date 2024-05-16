@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name manipulyator-v4-rescue)(type Legacy)(uri ${KIPRJMOD}/manipulyator-v4-rescue.lib)(options "")(descr ""))
+  (lib (name manipulyator-v3-cache)(type Legacy)(uri /media/user/data/YandexDisk/kicad_projects/manipulyator/manipulyator-v3/manipulyator-v3-cache.lib)(options "")(descr ""))
+)
